@@ -16,6 +16,12 @@ Select ONE Additional Feature to Add
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Encode+Sans+Semi+Condensed:wght@300&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="utf-8" />
     <title>Final Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
@@ -25,7 +31,6 @@ Select ONE Additional Feature to Add
       https://www.w3schools.com/howto/howto_css_parallax.asp*/
       .parallax {
         /* The image used */
-        background-image: url("https://cdn.glitch.global/66249578-345e-4e9c-8fac-cabe98f682e4/image0.jpeg?v=1747657278943");
 
         /* Set a specific height */
         min-height: 500px;
@@ -43,35 +48,37 @@ Select ONE Additional Feature to Add
       }
       .parent-flex {
         display: flex;
+        margin:auto;
+        width:50%;
+        text-align:center;
       }
       .child-flex {
-        background-color: green;
-        margin: 30px;
+        
+        margin: auto;
+        width:50%;
+        
         padding: 10px;
-        text-align: justify;
+        text-align: center;
       }
-      .para-1{
+      .para-1 {
         display: flex;
         align-items: center;
+      }
+      #bio{
+        text-align:justify;
       }
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul>
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
+      <li><a class="active" href="index.html">HOME</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="media.html">MEDIA</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      
       <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-      <li style="float: right">
-        <a target="_blank" href=""
+        <a target="_blank" href="https://www.instagram.com/k0vuk1/"
           ><img
             src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
             style="width: 25px; margin: -5px"
@@ -80,32 +87,41 @@ Select ONE Additional Feature to Add
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Ms. Hall | Web Dev 2024-2025</h1>
-    <div class="parallax"></div>
 
-    <div class="textblock parent-flex">
-      <div class="child-flex para-1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
+    <img
+      src="https://cdn.glitch.global/5f6ebdf7-d7a8-4b58-a8c7-20009593ac41/IMG_4320.JPG?v=1747922743760"
+      height="500"
+    />
+    <img
+      src="https://cdn.glitch.global/5f6ebdf7-d7a8-4b58-a8c7-20009593ac41/65-IM6A0065_CR3.jpg?v=1747750477315"
+      height="500"
+    />
+    <img
+      src="https://cdn.glitch.global/5f6ebdf7-d7a8-4b58-a8c7-20009593ac41/55-IM6A9841_CR3.jpg?v=1747750486815"
+      height="500"
+    />
+    <h1>Isa Koyuki Lau</h1>
+    <div class="parent-flex">
+      <div class="child-flex">
+        <img
+          src="https://cdn.glitch.global/5f6ebdf7-d7a8-4b58-a8c7-20009593ac41/BAFX1357.JPEG?v=1747750099874"
+          width="350"
+        />
       </div>
       <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+        <p id="bio">
+          <strong>Isa Lau</strong> (she/her) is a NYC based dancer and
+          choreographer. She currently studies dance at Fiorello H. LaGuardia
+          High School of Music & Art and Performing Arts. <br />Isa was a part
+          of Flight Path Dance Project's 6th Season, and has performed repertory
+          works by Keerati Jinakunwiphat, Ashley Lindsey, Stephanie Martinez,
+          Sekou McMiller, Yusha-Marie Sorzano, and Akira Uchida with the
+          company.<br />She will continue her studies in dance at SUNY Purchase
+          Conservatory of Dance.
         </p>
       </div>
     </div>
+
+    <p>Images by Layla Shoobridge (@laylamshoo)</p>
   </body>
 </html>
