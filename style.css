@@ -4,6 +4,8 @@ body {
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
+  text-align:center;
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -33,11 +35,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: #d0efff;
 }
 
 .active {
-  background-color: red;
+  background-color: #6f8faf;
 }
 
 h1 {
